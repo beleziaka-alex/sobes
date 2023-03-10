@@ -16,6 +16,7 @@ suspend fun main() {
 
 
 }
+data class MyTeam(val name: String, val number: Short)
 enum class Persons{alex, ilona, dawid, max}
 
 data class Products(val id: Int, val name: String, val count: Short, val price: Double)
